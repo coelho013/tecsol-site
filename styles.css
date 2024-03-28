@@ -1,0 +1,356 @@
+html, body {
+    background-color: black;
+    height: auto;
+    overflow-x: hidden;
+}
+#container-principal {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: white;
+}
+#a-mandamsg {
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+}
+/*----------------------------cabecalho------------------------------*/
+
+#cabecalho {
+    background-color: black;
+    height: 125px;
+    align-items: center;
+    display: flex;
+}
+#tecsol-darkmode {
+    width: 125px;
+    height: 125px;
+}
+#botao-tecsol-darkmode {
+    background-color: black;
+    border: 0;
+    padding: 0;
+    width: 125px;
+    height: 125px;
+}
+#botao-contate {
+    width: 200px;
+    height: 75px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*----------------------------tela------------------------------*/
+#container-telas {
+    width: 100vw;
+}
+/*----------------------------tela-1------------------------------*/
+#container-tela1 {
+    width: 80%;
+    height: auto;
+    display: flex;
+    padding: 0;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#container-texto {
+    width: 50%;
+    height: 100%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#titulo-texto {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+#texto {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+#logo-tecsol {
+    width: 500px;
+    height: 500px;
+    align-self: center;
+}
+/*----------------------------tela-2------------------------------*/
+#container-tela2 {
+    width: 80%;
+    height: auto;
+    padding: 0;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+#tecsol-grey {
+    width: 485px;
+    height: 658px;
+    border-radius: 10px;
+    align-self: center;
+}
+#container-texto2 {
+    width: 80%;
+    height: 80%;
+    margin-left: 5%;
+}
+#titulo-texto2 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+#texto2 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+#botao-comecar2 {
+    width: 200px;
+    height: 75px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 25px;
+    margin-top: 5%;
+}
+/*----------------------------tela-3------------------------------*/
+#container-tela3 {
+    width: 80%;
+    /*height: 750px;*/
+    height: auto;
+    padding: 0;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#container-texto3 {
+    width: 100%;
+    /*height: 500px;*/
+    height: auto;
+}
+#container-titulo {
+    width: 100%;
+    margin-bottom: 50px;
+}
+#titulo-texto3 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+#container-servicos {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#titulo-servicos {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+#descricao-servicos {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    margin-top: 20px;
+}
+#botao-comecar {
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-decoration: underline;
+}
+#divider {
+    background-color: black;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+}
+/*----------------------------tela-4------------------------------*/
+#container-tela4 {
+    width: 80%;
+    /*height: 700px;*/
+    height: auto;
+    padding: 0;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#titulo-texto4 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    margin-top: 50px;
+}
+#container-servico {
+    background-color: #D9D9D9;
+    width: 90%;
+    /*height: 170px;*/
+    height: auto;
+    border-radius: 10px;
+    margin-top: 35px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#container-texto-solucoes {
+    height: auto;
+    width: 50%;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#divider-solucoes {
+    width: 1px;
+    height: 144px;
+    background-color: black;
+    align-self: center;
+}
+#container-valores-extra {
+    display: flex;
+    width: 50%;
+}
+#container-numeros {
+    width: 46%;
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#titulo-solucao {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+}
+#descricao-solucoes {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    margin: 5px;
+}
+#container-numero {
+    display: flex;
+    position: absolute;
+}
+#numero {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+    position: relative;
+}
+#numero2 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 25px;
+    position: relative;
+    font-size: larger;
+}
+#descricao-numero-menor {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    margin-top: 30px;
+    font-size: medium;
+}
+#descricao-numero-maior {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 45px;
+    font-size: large;
+}
+/*----------------------------rodape------------------------------*/
+#container-rodape {
+    background-color: black;
+    height: 62px;
+    display: flex;
+    bottom: 0;
+    width: 100vw;
+    margin-top: 100px;
+}
+#tecsol-rodape {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    align-self: center;
+}
+
+
+
+/* cel */
+@media only screen and (max-width: 1000px)  {
+    /*----------------------------tela-1------------------------------*/
+    #container-tela1 {
+        flex-direction: column;
+    }
+    #logo-tecsol {
+        order: -1;
+    }
+    #container-texto {
+        order: 0;
+        width: 100%;
+    }
+    #texto {
+        font-size: large;
+        margin-top: 20px;
+    }
+    /*----------------------------tela-2------------------------------*/
+    #container-tela2 {
+        flex-direction: column;
+    }
+    #tecsol-grey {
+        width: 356px;
+        height: 525px;
+        margin-bottom: 30px;
+    }
+    #texto2 {
+        font-size: large;
+        margin-top: 20px;
+    }
+    #container-texto2 {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /*----------------------------tela-4------------------------------*/
+    #container-servico {
+        flex-direction: column;
+    }
+    #container-texto-solucoes {
+        width: 90%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #divider-solucoes {
+        width: 90%;
+        height: 1px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    #container-valores-extra {
+        display: flex;
+        width: 80%;
+        height: 50%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5%;
+    }
+    #container-numeros {
+        width: 100%;
+        height: 50%;
+    }
+}
+@media only screen and (max-width: 530px) {
+    #container-valores-extra {
+        display: none;
+    }
+    #divider-solucoes {
+        display: none;
+    }
+}

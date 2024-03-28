@@ -1,0 +1,12 @@
+{
+  "name": "tecsol",
+  "version": "1.0.0",
+  "description": "site da empresa tecsol",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "author": "Gabriel Coelho",
+  "license": "ISC"
+}
